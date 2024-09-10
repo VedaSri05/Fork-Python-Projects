@@ -46,15 +46,5 @@ while x == "y":
         print("[0 0 0]")
         print("[-----]")
 
-x=input("press y to roll again and n to exit:")
-print("\n")
-
-import random
-while True:
-    print('''1.roll the dice 2.To exit ''')
-    user = int(input("what you want to do\n"))
-    if user==1:
-        number = random.randint(1,6)
-        print(number)
-    else:
-        break
+    x=input("press y to roll again and n to exit:")
+    print("\n")
